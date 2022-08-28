@@ -10,10 +10,10 @@ fonnt-size : 24px;
 line-height : 80px;
 }
 nav {
-background : blue;
+background : white;
 width : 100%;
 height : 80px;
-border: solid 1px #fff;
+border: solid 2px #f1f1f1;
 }
 nav ul {
 float : right;
@@ -25,12 +25,12 @@ display : inline-block;
 padding : 0 5px;
 }
 nav ul li a {
-color : white;
+color : black;
 font-size : 17px;
 text-transform: uppercase;
 }
 .active, a:hover {
-	background: black;
+	background: orange;
 }
 .checkbtn {
 font-size : 24px;
@@ -40,20 +40,22 @@ line-height : 80px ;
 display : none;
 }
 .head {
-	padding: 10px;
+	padding: 0;
 	text-align: center;
 	margin-bottom: 10px;
 }
 .tab {
 	border: none;
-	padding: 0 200px;
+	padding-left: 40px;
+
 }
 .tab0 {
-	width: 150px;
+	width: 170px;
 	float: left;
 	border: solid 1px #f1f1f1;
-	margin-right: 10px;
+	margin-right: 25px;
 	margin-bottom: 10px;
+	margin-left: 0px;
 	font-size: 10px;
 	padding: 10px;
 	line-height: 40px;
@@ -64,8 +66,29 @@ display : none;
 	color: white;
 	text-decoration: none;
 	font-size: 12px;
+	font-weight: bold;
 }
+.tab0 p {
+	font-size: 15px;
+}
+.footer {
+background : black;
+color : white;
 
+width : 100%;
+}
+.fo1 {
+background : #f1f1f1;
+color : black;
+float : left;
+width : 32%;
+font-size : .9rem;
+text-align: left;
+}
+.fo1 p {
+	padding: 10px;
+	margin-left: 20px;
+}
 
 
 
@@ -116,4 +139,11 @@ color: white;
 .tab {
 	padding: 0;
 
+}
+.fo1 p{
+	padding: 10px;
+
+}
+.fo1 {
+	font-size: .7rem;
 }
