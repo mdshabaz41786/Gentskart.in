@@ -149,5 +149,6 @@ color: white;
 }
 .tab0 {
 	width : 150px;
-	margin-right : 0;
+	margin-right : 10px;
+	margin-left : 10px;
 	}
