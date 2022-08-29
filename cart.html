@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF=8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/397efffeb3.js" crossorigin="anonymous"></script>
+<style>
+*{
+text-decoration: none;
+padding : 0;
+margin :0;
+list-style: none;
+}
+
+label.logo {
+fonnt-size : 24px;
+line-height : 80px;
+}
+nav { 	
+background : white;
+width : 100%;
+height : 80px;
+border: solid 2px #f1f1f1;
+}
+nav ul {
+float : right;
+margin-right : 20px;
+}
+nav ul li {
+line-height : 80px;
+display : inline-block;
+padding : 0 5px;
+}
+nav ul li a {
+color : black;
+font-size : 17px;
+text-transform: uppercase;
+}
+.active, a:hover {
+	background: orange;
+}
+
+.footer {
+	margin-top: 800px;
+	margin-left: -20px;
+	margin-right: -55px;
+	background-color: oranges;
+
+}
+
+.fot1 {
+	float: left;
+	padding: 0px;
+	background: orange;
+	width: 24%;
+	font-size: 1rem;
+	border-right: solid 1px #f1f1f1;
+
+}
+.fot1 h3 {
+	padding: 20px;
+	text-align: center;
+}
+.fot1 p {
+	padding: 10px;
+	text-align: center;
+}
+.fot1 a {
+	font-size: 30px;
+	margin-left: 155px;
+	line-height: 37px;
+}
+.fotboder {
+text-align: center;
+padding: 50px;
+background: orange;
+font-size: .8rem;
+margin-top: 950px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 250px;
+  height :80px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 250%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.tab1 {
+position:relative;
+float: left;
+text-align:center;
+position: absolute;
+margin-top : 300px; 
+margin-left : 0px;
+border : solid 1px #f1f1f1;
+width: 100%;
+
+}
+.tab1 a {
+padding : 10px 14px;
+color : white;
+background: black;
+line-height : 50px;
+text-decoration : none;
+}
+.header {
+border : solid 2px #f1f1f1;
+text-align : center;
+padding: 10px;
+font-size : 17px;
+margin-bottom : 5px;
+}
+.similar {
+position: absolute;
+margin-top : 450px; 
+margin-left : 0px;
+border : solid 1px #f1f1f1;
+width: 100%;
+font-size : 10px;
+padding-left : 10px;
+}
+.test {
+width: 170px;
+	float: left;
+	border: solid 1px #f1f1f1;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	font-size: 15px;
+	padding: 10px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.test a {
+	padding: 8px 12px;
+	background: black;
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Mobile Site */
+
+@media (max-width : 850px) {
+
+@media (max-width : 952px) {
+label.logo img{
+	font-size: 20px;
+	max-width: 140px;
+	max-height: 120px;
+	margin-left: 5px;
+}
+
+.active, a:hower {
+	background-color: none;
+	color: white;
+}
+nav ul li a {
+font-size : .7rem;
+color: black;
+}
+.footer {
+	margin-right: -15px;
+	margin-left: 0;
+	margin-top: 1330px;
+}
+.fotboder {
+	font-size: 10px;
+	margin-top: 1480px;
+	margin-right: 2px;
+
+}
+.fot1 a {
+	margin-left: 30px;
+}
+.fot1 h3 {
+	font-size: .8rem;
+}
+.fot1 p {
+	font-size: .7rem;
+}
+.test {
+	margin-left: 20px;
+
+}
+</style>	
+</head>
+<body>
+	<nav>
+<label class="logo">
+	<img src="image/GentsKart.in.png" style="width: 220px; height: 80px;">
+
+ </label>
+<ul>
+<li><a href="#"> Home </a></li>
+<li><a href="#"> Cart </a></li>
+<li><a href="#"> Order </a></li>
+<li><a href="#"> Become a Seller </a></li>
+<li><a href="#"> More </a></li>
+</ul>
+</nav>
+<br clear="all">
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://i.ibb.co/2MxDZCj/winsalebaner.webp" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://i.ibb.co/88cwQzV/baner1.webp" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://i.ibb.co/TcH0yKX/images-3.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</div>
+<br clear ="all">
+<div class="tab1">
+    <h3>Name of the product</h3>
+    <h4>Price : 000/-</h4>
+    <a href="https://rzp.io/l/tVgkrf9Y">Buy Now</a>
+    <a href="#">View More</a>
+    
+</div>
+</div>
+<div class="similar">
+    <h1>Similar products</h1>
+    <div class="test">
+        <img src="https://i.ibb.co/TtSVM1s/images-5.jpg" style="max-width:120px" alt="fakeimag">
+        <h5>Name of the product</h5>
+        <p>Price : 000/-</p>
+        <a href="#">Buy Now</a>
+        
+    </div>
+    <div class="test">
+        <img src="https://i.ibb.co/TtSVM1s/images-5.jpg" style="max-width:120px" alt="fakeimag">
+        <h5>Name of the product</h5>
+        <p>Price : 000/-</p>
+        <a href="#">Buy Now</a>     
+    </div>
+    <div class="test">
+        <img src="https://i.ibb.co/TtSVM1s/images-5.jpg" style="max-width:120px" alt="fakeimag">
+        <h5>Name of the product</h5>
+        <p>Price : 000/-</p>
+        <a href="#">Buy Now</a>       
+    </div>
+    <div class="test">
+        <img src="https://i.ibb.co/TtSVM1s/images-5.jpg" style="max-width:120px" alt="fakeimag">
+        <h5>Name of the product</h5>
+        <p>Price : 000/-</p>
+        <a href="#">Buy Now</a>
+    </div>
+    <div class="test">
+        <img src="https://i.ibb.co/TtSVM1s/images-5.jpg" style="max-width:120px" alt="fakeimag">
+        <h5>Name of the product</h5>
+        <p>Price : 000/-</p>
+        <a href="#">Buy Now</a>
+        
+    </div>
+    <div class="test">
+        <img src="https://i.ibb.co/TtSVM1s/images-5.jpg" style="max-width:120px" alt="fakeimag">
+        <h5>Name of the product</h5>
+        <p>Price : 000/-</p>
+        <a href="#">Buy Now</a>
+        
+    </div>
+</div>
+
+<br clear="all">
+
+<div class="footer">
+	<div class="fot1">
+		<h3> Contact us </h3>
+		<p>About us </p>
+		<p>Return Policy</p>
+		<p>Term of use</p>
+	</div>
+	<div class="fot1">
+		<h3> Corporate Office </h3>
+		<p>Z5/196 Badartala,Kolkata </p>
+		<p>West Bengal </p>
+		<p>Pin : 700044</p>
+	</div>
+	<div class="fot1">
+		<h3> CIN  </h3>
+		<p>417869390995 </p>
+		<p>GSTM </p>
+		<p>19HTUPS9524K </p>
+	</div>
+	<div class="fot1">
+		<h3> Social Media </h3>
+		<a href=""><i class="fa-brands fa-facebook"></i></a>
+		<a href=""><i class="fa-brands fa-twitter"></i></a>
+		<a href=""><i class="fa-brands fa-instagram"></i></a>
+	</div>
+	 </div>
+	 <div  class="fotboder">
+		<h3> All Right Reserve GentsKart.in 2022 </h3>
+	</div>
