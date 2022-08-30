@@ -3,6 +3,7 @@ text-decoration: none;
 padding : 0;
 margin :0;
 list-style: none;
+box-sizing: border-box;
 }
 
 label.logo {
@@ -72,22 +73,44 @@ display : none;
 	font-size: 15px;
 }
 .footer {
-background : black;
-color : white;
+	width: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: oranges;
 
-width : 100%;
 }
-.fo1 {
-background : #f1f1f1;
-color : black;
-float : left;
-width : 32%;
-font-size : .9rem;
-text-align: left;
+
+.fot1 {
+	float: left;
+	padding: 0px;
+	background: orange;
+	width: 25%;
+	font-size: 1rem;
+	border-right: solid 1px #f1f1f1;
+
+
 }
-.fo1 p {
+.fot1 h3 {
+	padding: 20px;
+	text-align: center;
+}
+.fot1 p {
 	padding: 10px;
-	margin-left: 20px;
+	text-align: center;
+}
+.fot1 a {
+	padding: 90px;
+	font-size: 30px;
+	margin-left: 0px;
+	line-height: 50px;
+}
+.fotboder {
+text-align: center;
+padding: 50px;
+background: orange;
+font-size: .8rem;
+margin-top: 170px;
 }
 
 
@@ -140,19 +163,18 @@ color: white;
 	padding: 0;
 
 }
-.fo1 p{
-	padding: 10px;
-
-}
-.fo1 {
-	font-size: .7rem;
-}
 .tab0 {
 	width : 150px;
 	margin-right : 10px;
 	margin-left : 10px;
 	}
 @media (max-width : 750px) {
+	body {
+		font-size: 15px;
+	}
+	div {
+		font-size: 12px;
+	}
 	.tab0 {
 	width : 150px;
 	margin-right : 5px;
@@ -160,4 +182,28 @@ color: white;
 	font-size: 5px;
 	padding: 5px;
 	}
+}
+.footer {
+	margin-right: -0px;
+	margin-left: 0;
+	margin-top: 0px;
+}
+.fotboder {
+	font-size: 10px;
+	margin-top: 140px;
+	margin-right: 0px;
+}
+.fot1 {
+width: 25%;
+}
+.fot1 a {
+	padding: 20px;
+	margin-left: 0px;
+	line-height: 40px;
+}
+.fot1 h3 {
+	font-size: .8rem;
+}
+.fot1 p {
+	font-size: .7rem;
 }
