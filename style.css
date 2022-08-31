@@ -164,6 +164,7 @@ color: white;
 
 }
 .tab0 {
+	padding: 50px;
 	width : 150px;
 	margin-right : 10px;
 	margin-left : 10px;
@@ -205,5 +206,5 @@ width: 25%;
 	font-size: .8rem;
 }
 .fot1 p {
-	font-size: .7rem;
+	font-size: .6rem;
 }
