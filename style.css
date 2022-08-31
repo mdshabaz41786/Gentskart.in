@@ -194,11 +194,10 @@ width: 25%;
 	font-size: .6rem;
 }
 @media (max-width : 750px) {
-	div {
-		font-size : 15px;
-	}
-	body {
-		font-size :20px;
+	.tab {
 		padding : 0;
 	}
-	
+	.tab0 {
+		width : 150px;
+	}
+		
