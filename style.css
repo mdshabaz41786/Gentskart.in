@@ -5,6 +5,10 @@ margin :0;
 list-style: none;
 box-sizing: border-box;
 }
+img {
+  vertical-align: middle;
+}
+
 
 label.logo {
 font-size : 24px;
@@ -44,12 +48,12 @@ display : none;
 	padding: 0;
 	text-align: center;
 	margin-bottom: 10px;
-	margin-top: 10px;
+	margin-top: 50px;
 	font-weight: bold;
 }
 .tab {
 	border: none;
-	padding-left: 40px;
+	padding-left: 100px;
 
 }
 .tab0 {
@@ -128,10 +132,11 @@ display : none;
 .ad {
 float: left;
 width: 220px;
-height: 200px;
+height: 220px;
 margin-top: 10px;
 border: solid 2px #f1f1f1;
 margin-left: 40px;
+margin-bottom: 20px;
 }
 .ad img {
 	width: 100%;
@@ -178,7 +183,7 @@ left : 0;
 }
 nav ul li a {
 font-size : 24px;
-color: white;
+color: black;
 }
 .tab {
 	padding: 5px;
@@ -187,8 +192,8 @@ color: white;
 }
 .tab0 {
 	width : 160px;
-	margin-right : 10px;
-	margin-left : 10px;
+	margin-right: 5px;
+	margin-left : 30px;
 }
 .ad {
 width: 150px;
