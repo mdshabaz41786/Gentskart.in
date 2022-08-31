@@ -160,29 +160,13 @@ font-size : 24px;
 color: white;
 }
 .tab {
-	padding: 0;
+	padding: 60px;
 
 }
 .tab0 {
-	padding: 50px;
 	width : 150px;
 	margin-right : 10px;
 	margin-left : 10px;
-	}
-@media (max-width : 750px) {
-	body {
-		font-size: 15px;
-	}
-	div {
-		font-size: 12px;
-	}
-	.tab0 {
-	width : 150px;
-	margin-right : 5px;
-	margin-left : 5px;
-	font-size: 5px;
-	padding: 5px;
-	}
 }
 .footer {
 	margin-right: -0px;
