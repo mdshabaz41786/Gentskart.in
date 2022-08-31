@@ -160,11 +160,12 @@ font-size : 24px;
 color: white;
 }
 .tab {
-	padding: 60px;
+	padding: 10px;
+
 
 }
 .tab0 {
-	width : 150px;
+	width : 180px;
 	margin-right : 10px;
 	margin-left : 10px;
 }
