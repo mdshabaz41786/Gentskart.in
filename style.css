@@ -61,9 +61,12 @@ display : none;
 	padding: 10px;
 	line-height: 40px;
 }
+.tab0 h1 {
+	font-size: 1rem;
+}
 .tab0 a {
 	padding: 8px 12px;
-	background: black;
+	background: orange;
 	color: white;
 	text-decoration: none;
 	font-size: 12px;
@@ -112,14 +115,24 @@ background: orange;
 font-size: .8rem;
 margin-top: 170px;
 }
-
-
-
-
-
 #check {
 display : none;
 }
+.ad-sec1 {
+	padding: 40px;
+	margin-left: 20px;
+}
+.ad {
+	float: left;
+	padding: 5px;
+	border: solid 1px #f1f1f1;
+	margin-left: 10px;
+}
+
+
+
+
+/* MOBILE SITE */
 
 @media (max-width : 850px) {
 label.logo {
